@@ -1,89 +1,233 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>structure</title>
+  <meta charset="utf-8" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="assets/css/grid.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
+
 <body>
 
-<header> 
-	<!-- header content live here -->
-	<nav>
-		<ul>
-			<li>
-				<a href="index.html">
-					<img src="D.jpeg" width="80px"/>
-				</a>
-				</li>
-			<li>>
-				<ul>
-					<li>
-						<a href="index.html"> HOME</a>
-						</li>
-					<li>
-						<a href="index.html"> ABOUT ME</a>
-						</li>
-				</ul>
-			</li>
-		</ul>
-	</nav>
-</header>
+  <header>
+    <!-- header contents live here-->
+    <nav class="nav">
+      <!-- container here -->
+      <div class="container container--lg-width">
+        <ul class="nav__list clearfix">
+          <li class="nav__left">
+            <a href="index.html" class="nav__link nav__brand">
+              <img src="assets/img/logo.jpg" />
+            </a>
+          </li>
+          <li class="nav__right">
+            <ul class="nav__list">
+              <li class="nav__active">
+                <a href="index.html" class="nav__link">HOME</a>
+              </li>
+              <li>
+                <a href="#" class="nav__link">ABOUT ME</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-<main>
-	<!-- main contains:
-	Sections
-	Articles
-	Aside
-	Div -->
-	<!--banner section -->
-	<section>
-		<!-- GRID SYSTEM AT WORK HERE -->
-		<div>
-			<h1>Portfolio</h1>
-		</div>
-	</section>
-	<!-- project section -->
-	<section>
-		<div>
-			<div>CARD1</div>
-			<div>CARD2</div>
-			<div>CARD3</div>
-			<div>CARD4</div>
-			<div>CARD5</div>
-			<div>CARD6</div>
-		</div>
-		<!-- GRID SYSTEM ENDS HERE -->
-	</section>
-	<!-- form section -->
-	<section>
-		<form>
-			<textarea></textarea>
-			<button>Submit</button>
-		</form>
-	</section>
+  <main>
+    <!-- banner section -->
+    <section class="banner">
+      <div class="banner__details">
+        <h1>Portfolio</h1>
+      </div>
+    </section>
 
-	<!-- CV section -->
-	<!-- <aside>
-		
-	</aside> -->
-</main>
-<footer>
-	<div>
-		<ul>
-			<li>Copyright &copy; 2018</li>
-			<li>
-				<ul>
-					<li>Contact</li>
-					<li>
-						<ul>
-							<li><a href="https://wwww.github.com/David">Github</a></li>
-							<li><a href="#">Linkedin</a></li>
-							<li><a href="#">Email</a></li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-</footer>
+    <!-- project section -->
+    <section class="project">
+      <div class="container container--lg-width">
+        <div class="project__heading">
+          <h3 class="section-heading__title">Project</h3>
+        </div>
+        <!-- GRID SYSTEM AT WORK HERE -->
+        <div class="grid">
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin1.jpg">
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin2.jpg">
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin3.jpg">
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin4.jpg">
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin5.jpg">
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-33 col-x-100">
+            <div class="card">
+              <div class="card__body">
+                <div>
+                  <img src="assets/img/cin6.jpg" />
+                </div>
+                <div class="card__overlay">
+                  <div class="card__overlay-details">
+                    <div class="card__icons">&AElig;</div>
+                    <a href="#" class="card__links" target="_blank">Visit Project</a>
+                  </div>
+                </div>
+                <img src="http://via.placeholder.com/400x250" />
+              </div>
+              <div class="card__footer">
+                <h6>Title</h6>
+                <small>DATE</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- GRID SYSTEM ENDS HERE -->
+      </div>
+    </section>
+
+    <!-- form section -->
+    <section class="job">
+      <div class="container">
+        <div class="project__heading">
+          <h3 class="section-heading__title">Place Your Order Here</h3>
+        </div>
+        <form class="job__form">
+          <div>
+            <textarea class="job__textarea"></textarea>
+          </div>
+          <br />
+          <button class="job__btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- CV section
+    <aside>
+
+    </aside> -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="container container--lg-width">
+      <div class="footer__wrap">
+        <ul class="footer__list clearfix">
+          <li class="footer__left">Copyright &copy; 2018</li>
+          <li class="footer__right">
+            <ul class="footer__list">
+              <li>
+                <ul class="footer__list">
+                  <li>
+                    <a href="https://github.com/DavidEwa" class="footer__links" target="_blank">Github</a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/ewa-david-80251285/" class="footer__links">Linkedin</a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer__links">Email</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>

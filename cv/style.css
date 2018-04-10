@@ -1,0 +1,16 @@
+ 
+  body{
+      margin: auto 0;
+  }
+  .box{
+      max-width: 500px;
+  }
+ .box-img{
+
+
+}
+body > div > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}

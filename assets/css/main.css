@@ -1,0 +1,255 @@
+body{
+  background-color: #EEE;
+}
+
+/* CONTAINER */
+.container{
+  padding: 0 15px;
+  margin: 0 auto;
+  /* width:  */
+}
+
+.container--lg-width{
+  max-width: 1060px;
+}
+
+/* CONTAINER */
+
+/* GENERAL STYLES */
+.clearfix:after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+section.project, section.job{
+  padding: 60px 0;
+}
+
+.section-heading__title{
+  font-size: 30px;
+  text-align: center;
+  margin: 0 0 30px 0;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+/* GENERAL STYLES */
+/* HEADER */
+.nav{
+  background-color: #FFF;
+}
+.nav__list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* .nav__list:after{
+  content: '';
+  display: table;
+  clear: both;
+} */
+
+.nav__list li{
+  display: inline-block;
+}
+
+.nav__left{
+  float: left;
+}
+
+.nav__brand{
+  padding: 10px 0;
+}
+.nav__brand img{
+  height: 40px;
+}
+.nav__right{
+  float: right;
+}
+.nav__link{
+  display: block;
+}
+.nav__right .nav__link{
+  color: #222;
+  display: block;
+  text-decoration: none;
+  padding: 23px 12px;
+}
+
+.nav__active .nav__link{
+  background-color: rgba(161, 245, 179);
+  font-weight: 700;
+  
+}
+/* HEADER */
+
+
+/* BANNER */
+.banner{
+  height: 300px;
+  background: url(../../assets/img/banner.jpg);
+  background-size: cover;
+  padding-top: 119px;
+  background-attachment: fixed;
+  background-position: 50%;
+
+
+
+}
+
+.banner__details{
+  padding: 15px;
+}
+
+.banner__details h1{
+  margin: 0;
+  text-align: center;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 32px;
+}
+/* BANNER */
+
+/* PROJECT */
+
+/* section.project{
+  padding: 60px 0;
+}
+
+/* section.project .container{
+  max-width: 1060px;
+  margin: 0 auto; 
+}*/
+
+
+/* PROJECT */
+
+/* JOB SECTION*/
+section.job{
+	padding: 60px 0;
+}
+section.job .container{
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.job__textarea{
+	width: 100%;
+	height: 150px;
+	resize: none;
+	border: 1px solid #DDD;
+}
+.job__textarea:focus{
+	border-color: red;
+	outline: none;
+}
+.job__btn{
+	border: 1px solid #000;
+	background: #222;
+	color: rgb(235, 165, 165);
+	border-radius: 4;
+	font-weight: 500;
+	font-size: 18px;
+	padding: 12px 14px;
+  cursor: pointer;
+  
+}
+/* JOB SECTION*/
+
+/*FOOTER*/
+.footer{
+	background: #FFF;
+	padding: 15px 0;
+}
+.footer__list{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.footer__list li{
+	display: inline-block;
+}
+.footer__left{
+	float: left;
+	padding-top: 20px;
+}
+.footer__right{
+	float: right;
+}
+/* .footer__list:after{
+	content: "";
+	display: table;
+	clear: both;
+} */
+.footer__links{
+	padding: 20px 12px;
+	display: block;
+	color: #222;
+	text-decoration: none;
+
+}
+footer.footer .container{
+	margin: 0 auto;
+	max-width: 1060px;
+}
+/*FOOTER*/
+
+/* CARD */
+.card{
+  background: #FFF;
+  min-height: 120px;
+  margin-bottom: 30px;
+}
+
+.card__body{
+  height: 180px;
+  position: relative;
+  overflow: hidden;
+}
+.card__body img{
+  width: 100%;
+  height: 100%;
+}
+.card__footer{
+  padding: 15px;
+}
+.card__footer h6{
+  margin: 5px 0;
+}
+
+.card__overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:  rgb(161, 245, 179);
+  transition: all 0.33s cubic-bezier(0.42, 0,0.35,0.66);
+  /* transition: all 1s ease; */
+  transform: translateY(-100%);
+  padding-top: 50px;
+}
+.card__overlay-details{
+	text-align: center;
+	height: 112px;
+}
+.card__icons{
+	font-size: 80px;
+}
+.card__links{
+	text-decoration: none;
+	color: #222;
+}
+.card:hover .card__overlay{
+	transform: translateY(0);
+}
+/* CARD */
+
+/* EXTEND GRID */
+
+.col-33{
+  width: calc(100% / 3);
+}
